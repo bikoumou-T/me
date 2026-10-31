@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Me!</title>
+<style>:root{--bg:#F8F5F0;--surface:#FFFFFF;--ink:#242424;--soft:#6B635C;--line:#E6E0D6;--accent:#A44634;--logo:#BC5947;--accentSoft:#F6E6E1}
+@media (prefers-color-scheme:dark){:root{--bg:#1B1917;--surface:#252220;--ink:#F3EFE9;--soft:#B3AAA2;--line:#3A3532;--accent:#EFA08E;--logo:#E08A76;--accentSoft:#4A2C25}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);font-weight:600}
+header{position:sticky;top:0;z-index:2;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:760px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.logo{font-weight:900;font-size:24px;color:var(--logo);text-decoration:none;letter-spacing:-.5px}
+.lang{margin-left:auto;font-size:14px;text-decoration:none;border:1px solid var(--line);padding:6px 12px;border-radius:999px;color:var(--ink)}
+nav{max-width:760px;margin:0 auto;padding:0 16px 10px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+nav a{flex:none;font-size:14px;text-decoration:none;color:var(--soft);padding:6px 12px;border-radius:999px;font-weight:600}
+nav a.on{background:var(--accentSoft);color:var(--accent)}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:32px;line-height:1.2;margin:8px 0 4px;letter-spacing:-.5px}
+.updated{color:var(--soft);font-size:14px;margin:0 0 24px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:0 0 14px}
+h2{font-size:19px;line-height:1.3;margin:0 0 8px;display:flex;align-items:center;gap:10px}
+.n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--accentSoft);color:var(--accent);font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+p{margin:0 0 10px}p:last-child{margin-bottom:0}
+ul{margin:4px 0 10px;padding-left:20px}li{margin:0 0 8px}li::marker{color:var(--accent)}
+footer{max-width:760px;margin:0 auto;padding:0 16px 40px;color:var(--soft);font-size:14px;text-align:center}
+.hero{text-align:center;padding:48px 16px}.hero h1{font-size:44px;color:var(--logo)}.hero p{color:var(--soft);font-size:19px}
+.links{display:grid;gap:10px;max-width:420px;margin:24px auto 0}.links a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;text-decoration:none;color:var(--ink)}
+.view{display:none}.view.on{display:block}</style></head><body>
+<div class="view" id="en/index" lang="en"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/index">Polski</a></div></header>
+<main class="hero"><h1>Me!</h1><p>Women lead. You choose.</p><div class="links"><a href="#en/terms">Terms</a><a href="#en/privacy">Privacy</a><a href="#en/cookies">Cookies</a><a href="#en/guidelines">Guidelines</a><a href="#en/help">Help</a><a href="mailto:thombikoumou@gmail.com">Contact: thombikoumou@gmail.com</a></div></main></div>
+<div class="view" id="en/terms" lang="en" data-title="Me! — Terms of Use"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/terms">Polski</a></div><nav><a href="#en/terms" class="on">Terms</a><a href="#en/privacy">Privacy</a><a href="#en/cookies">Cookies</a><a href="#en/guidelines">Guidelines</a><a href="#en/help">Help</a></nav></header>
+<main><h1>Terms of Use</h1><p class="updated">Last updated: 31 October 2026</p>
+<section id="who-we-are"><h2><span class="n">1</span>Who we are</h2>
+<p>Me! is a dating app run by Thom Bikoumou, a private person based in Poland (&quot;we&quot;, &quot;us&quot;). Contact: <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="who-can-use-me"><h2><span class="n">2</span>Who can use Me!</h2>
+<p>You must be at least 18 years old. You may have only one account, with your own real first name, age and photos. You must not use Me! if you have been convicted of a sexual or violent offence, or if we have removed you before.</p>
+<p>We check your birth date when you sign up. If a report or your photos suggest someone may be under 18, our team reviews the account and may ask for an age check. Accounts of people under 18 are removed.</p>
+</section>
+<section id="how-me-works"><h2><span class="n">3</span>How Me! works</h2>
+<ul>
+<li>Between a woman and a man, she likes first or accepts his like, and she always sends the first message.</li>
+<li>Between two women or two men, it is a match when you both like each other, and either of you can say hi.</li>
+<li>With a non-binary person, it is a match when you both like each other, and you only see each other if you both want to meet each other.</li>
+<li>Who you are interested in is private and never shown on your profile.</li>
+<li>Me! opens city by city. Outside the cities that are open, you can create a profile and join the waitlist, but you are not shown to anyone yet.</li>
+</ul>
+</section>
+<section id="your-account"><h2><span class="n">4</span>Your account</h2>
+<p>Keep your sign-in details safe; you are responsible for what happens in your account. You can pause, download your data or delete your account at any time in Settings.</p>
+</section>
+<section id="your-content"><h2><span class="n">5</span>Your content</h2>
+<p>You keep ownership of your photos, texts and recordings. You give us a non-exclusive, worldwide, free licence to host, store, show and adapt them (for example resize photos) only to run Me! for you. The licence ends when you delete the content or your account, except where we must keep it for safety or legal reasons (see the Privacy Policy).</p>
+<p>Only upload content you have the right to share. Photos and other content are checked automatically and may be reviewed by our team; content that breaks these Terms is not published or is removed.</p>
+</section>
+<section id="rules-of-conduct"><h2><span class="n">6</span>Rules of conduct</h2>
+<p>Be kind and honest. In particular, do not: harass, threaten or insult anyone; post nudity, sexual or violent content; post hate speech; impersonate anyone or use someone else's photos; ask for or offer money, gifts, investments or sexual services; advertise or spam; contact people who are under 18; share anyone's private information; try to get around blocks, limits or our safety systems. Our Community Guidelines explain these rules in more detail.</p>
+</section>
+<section id="safety"><h2><span class="n">7</span>Safety</h2>
+<p>We give you tools to report, block, plan dates safely and check in, but we do not run criminal background checks, and a verified badge only means a selfie matched the profile photos when we checked. Meet in public places and use your judgement. In an emergency, call your local emergency number (112 in the EU).</p>
+</section>
+<section id="reports-holds-and-suspensions"><h2><span class="n">8</span>Reports, holds and suspensions</h2>
+<p>We review reports. While a serious report is reviewed, we may put an account on hold. If an account breaks these Terms, we may remove content, limit features or suspend the account. We tell you why, as far as we can without putting anyone at risk, and you can appeal once from the app; a person reviews every appeal.</p>
+</section>
+<section id="paid-features"><h2><span class="n">9</span>Paid features</h2>
+<p>Liking, answering likes, chatting and all safety tools are free. Optional paid features:</p>
+<ul>
+<li>Me! Gold: one monthly subscription. It renews automatically each month at the price shown in the store until you cancel it in your App Store or Google Play account at least 24 hours before renewal. You keep Gold until the end of the paid period.</li>
+<li>Boost: a one-time purchase that shows your profile earlier in Discover for one hour. Bought Boosts do not expire.</li>
+</ul>
+<p>Purchases are made and billed by Apple or Google in your local currency, taxes included; their terms and refund rules also apply. Gold and Boost never guarantee likes or matches.</p>
+<p>Right of withdrawal (EU consumers): you normally have 14 days to withdraw from a distance contract. When you buy Gold or a Boost, you ask us to start right away and acknowledge that you lose this right once the service has been fully provided (for a Boost, once it has been used). To ask for a refund, use the store's refund process or write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="changes-and-availability"><h2><span class="n">10</span>Changes and availability</h2>
+<p>We are improving Me! all the time and may change or stop features. If we change these Terms in a way that matters, we will tell you in the app and ask you to accept them again.</p>
+</section>
+<section id="ending-your-use-of-me"><h2><span class="n">11</span>Ending your use of Me!</h2>
+<p>You can delete your account at any time in Settings. Deleting your account does not cancel a store subscription; cancel it in your store account. We may end these Terms or suspend your account if you seriously or repeatedly break them.</p>
+</section>
+<section id="liability"><h2><span class="n">12</span>Liability</h2>
+<p>We provide Me! with reasonable care, but we cannot promise it will always be available or error-free, or that you will meet anyone. We are not responsible for how other members behave on or off Me!. Nothing in these Terms limits liability that cannot be limited by law, including for death or personal injury caused by negligence, for intent or gross negligence, or your rights as a consumer.</p>
+</section>
+<section id="law-and-disputes"><h2><span class="n">13</span>Law and disputes</h2>
+<p>These Terms are governed by Polish law. If you are a consumer, you also keep the protection of the mandatory laws of the country where you live, and you can bring a claim in the courts there. Please contact us first at <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a> so we can try to solve the problem.</p>
+</section>
+</main><footer>Questions? Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="en/privacy" lang="en" data-title="Me! — Privacy Policy"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/privacy">Polski</a></div><nav><a href="#en/terms">Terms</a><a href="#en/privacy" class="on">Privacy</a><a href="#en/cookies">Cookies</a><a href="#en/guidelines">Guidelines</a><a href="#en/help">Help</a></nav></header>
+<main><h1>Privacy Policy</h1><p class="updated">Last updated: 31 October 2026</p>
+<section id="who-is-responsible-for-your-data"><h2><span class="n">1</span>Who is responsible for your data</h2>
+<p>The controller of your personal data is Thom Bikoumou, a private person based in Poland. Contact for any privacy question or request: <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="what-we-collect"><h2><span class="n">2</span>What we collect</h2>
+<ul>
+<li>Account: email address and/or phone number, sign-in method (email, phone, Google), password (stored only as a secure hash).</li>
+<li>Profile: first name (and surname if you add it — never shown), birth date (only your age is shown), gender, photos, bio, answers to prompts, voice and video intros, interests, job, education, height, languages, lifestyle details, intentions, date ideas.</li>
+<li>Preferences: who you want to meet (orientation, openness to non-binary people), age range, distance and other filters, notification settings, quiet hours, language and time zone.</li>
+<li>Location: only if you allow it — a position rounded to about 1 km and your city name. Otherwise the city you choose. With Passport, the city you pick.</li>
+<li>Activity: likes, passes, matches, messages, photos and voice messages you send, date plans, check-ins and answers to optional questions (for example whether a date happened).</li>
+<li>Safety: reports you make or receive, blocks, moderation decisions, appeals, and verification selfies.</li>
+<li>Purchases: whether you have Gold or Boosts, purchase and subscription status received from Apple, Google and RevenueCat (we never receive your card details).</li>
+<li>Technical: a notification token for your phone, app version, and logs needed to keep the service secure.</li>
+</ul>
+</section>
+<section id="sensitive-data"><h2><span class="n">3</span>Sensitive data</h2>
+<p>Information about who you want to meet can reveal your sexual orientation or sex life, which is special category data under the GDPR. We process it only with your explicit consent, given when you choose it in the app, and only to show you the right people. It is never shown on your profile. You can change it or withdraw consent at any time by editing your profile or deleting your account.</p>
+<p>Your verification selfie is compared with your profile photos by our review team to give the verified badge. We do not use it to identify you in any other way, and it is never shown to other members.</p>
+</section>
+<section id="why-we-use-your-data-and-on-what-basis"><h2><span class="n">4</span>Why we use your data and on what basis</h2>
+<ul>
+<li>To provide Me! (account, profile, discovery, matching, chat, date planning, purchases) — performance of our contract with you (Art. 6(1)(b) GDPR) and, for orientation data, your explicit consent (Art. 9(2)(a)).</li>
+<li>To keep members safe (moderating photos, detecting scams and fake accounts, handling reports and appeals, enforcing our Terms) — our and our members' legitimate interests (Art. 6(1)(f)).</li>
+<li>To learn what you like from your own likes and passes and order Discover accordingly — performance of our contract; we never use religion, photos or orientation for this, and you can reset it in Settings.</li>
+<li>To send notifications — your consent on your phone; you choose which ones in Settings.</li>
+<li>To comply with the law (for example tax records for purchases, answering lawful requests) — legal obligation (Art. 6(1)(c)).</li>
+<li>To improve Me! using aggregated statistics — legitimate interests.</li>
+</ul>
+<p>We do not sell your data and we do not show advertising.</p>
+</section>
+<section id="automated-processing"><h2><span class="n">5</span>Automated processing</h2>
+<p>Photos are checked automatically before they are published, and some messages trigger automatic safety warnings or flags for review. Discover is ordered automatically. Decisions to suspend an account are always taken or confirmed by a person.</p>
+</section>
+<section id="who-we-share-data-with"><h2><span class="n">6</span>Who we share data with</h2>
+<ul>
+<li>Other members see your public profile (never your exact location, surname, birth date, email, phone or orientation) and the messages you send them.</li>
+<li>Service providers acting on our instructions: Supabase (database, storage and servers), Expo (push notification delivery), Google Firebase Cloud Messaging and Apple Push Notification service (delivering notifications), OpenAI (automatic checking of photos for nudity and violence; images are not used to train their models), RevenueCat, Apple and Google (purchases and subscriptions), Google (if you sign in with Google), and an SMS provider if you sign in with your phone number.</li>
+<li>A person you choose, if you share a date plan link with them.</li>
+<li>Authorities, when the law requires it or to protect someone's life or safety.</li>
+</ul>
+<p>Some providers are located outside the European Economic Area (for example in the United States). In that case we rely on an adequacy decision (such as the EU–US Data Privacy Framework) or the European Commission's Standard Contractual Clauses.</p>
+</section>
+<section id="how-long-we-keep-data"><h2><span class="n">7</span>How long we keep data</h2>
+<ul>
+<li>While your account exists. When you delete your account, your profile, photos, matches, messages and date plans are deleted within 30 days (and from backups within a further 30 days).</li>
+<li>Sign-ups that are never confirmed are deleted after 24 hours.</li>
+<li>Reports, moderation decisions and appeals may be kept for up to 12 months after an account is deleted to protect members and handle disputes; records needed for taxes for as long as the law requires.</li>
+</ul>
+</section>
+<section id="your-rights"><h2><span class="n">8</span>Your rights</h2>
+<p>You can access your data (Settings → Download my data), correct it, delete it (Settings → Delete account), receive it in a portable format, restrict or object to processing based on legitimate interests, and withdraw consent at any time without affecting earlier processing. Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>; we answer within one month.</p>
+<p>You also have the right to complain to the Polish data protection authority: Prezes Urzędu Ochrony Danych Osobowych (UODO), ul. Stawki 2, 00-193 Warszawa, <a href="https://uodo.gov.pl" rel="noopener">uodo.gov.pl</a> — or to the authority in the EU country where you live.</p>
+</section>
+<section id="security"><h2><span class="n">9</span>Security</h2>
+<p>Data is encrypted in transit, access is limited by strict rules in the database, photos are stored privately, hidden data such as GPS is removed from photos, and distances are rounded. No system is perfectly secure; if a breach affects you, we will tell you as the law requires.</p>
+</section>
+<section id="age"><h2><span class="n">10</span>Age</h2>
+<p>Me! is only for people aged 18 or over. If we learn that someone under 18 has an account, we delete it.</p>
+</section>
+<section id="changes"><h2><span class="n">11</span>Changes</h2>
+<p>If we change this policy in a way that matters, we will tell you in the app.</p>
+</section>
+</main><footer>Questions? Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="en/cookies" lang="en" data-title="Me! — Cookie Policy"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/cookies">Polski</a></div><nav><a href="#en/terms">Terms</a><a href="#en/privacy">Privacy</a><a href="#en/cookies" class="on">Cookies</a><a href="#en/guidelines">Guidelines</a><a href="#en/help">Help</a></nav></header>
+<main><h1>Cookie Policy</h1><p class="updated">Last updated: 31 October 2026</p>
+<section>
+<p>Me! is a mobile app and does not use advertising cookies or third-party trackers.</p>
+</section>
+<section id="what-the-app-stores-on-your-phone"><h2>What the app stores on your phone</h2>
+<ul>
+<li>Your sign-in session, so you stay logged in (kept in your phone's secure storage).</li>
+<li>Your app settings, such as language, appearance and units.</li>
+<li>Unsent message drafts and small caches that make the app faster.</li>
+</ul>
+<p>These are strictly necessary for the app to work and are removed when you sign out or uninstall Me!.</p>
+</section>
+<section id="these-web-pages"><h2>These web pages</h2>
+<p>The pages for our Terms, Privacy Policy and Help Centre do not set any cookies.</p>
+</section>
+<section id="analytics-and-ads"><h2>Analytics and ads</h2>
+<p>We do not use advertising, cross-app tracking or third-party analytics SDKs. If that ever changes, we will update this policy and ask for your consent where the law requires it.</p>
+</section>
+</main><footer>Questions? Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="en/guidelines" lang="en" data-title="Me! — Community Guidelines"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/guidelines">Polski</a></div><nav><a href="#en/terms">Terms</a><a href="#en/privacy">Privacy</a><a href="#en/cookies">Cookies</a><a href="#en/guidelines" class="on">Guidelines</a><a href="#en/help">Help</a></nav></header>
+<main><h1>Community Guidelines</h1><p class="updated">Last updated: 31 October 2026</p>
+<section>
+<p>Me! is for people who want to meet with intention and respect. Breaking these rules can lead to content removal, a hold or suspension.</p>
+</section>
+<section id="be-real"><h2>Be real</h2>
+<p>Use your own name, age and recent photos of you. One account per person. No fake profiles, no catfishing, no impersonation.</p>
+</section>
+<section id="be-respectful"><h2>Be respectful</h2>
+<p>No harassment, threats, insults, hate or pressure. &quot;No&quot; — or no reply — is an answer. Never share someone's messages, photos or private details without their consent.</p>
+</section>
+<section id="keep-it-clean"><h2>Keep it clean</h2>
+<p>No nudity or sexual content, no violence, no illegal drugs or weapons, no content involving minors.</p>
+</section>
+<section id="no-money-no-business"><h2>No money, no business</h2>
+<p>Never ask for money, gift cards, crypto or investments. No selling, advertising, sex work or recruiting.</p>
+</section>
+<section id="adults-only"><h2>Adults only</h2>
+<p>Everyone on Me! must be 18 or older.</p>
+</section>
+<section id="stay-safe"><h2>Stay safe</h2>
+<p>Meet in public, tell a friend, arrange your own transport, and leave whenever you want. Report anything that feels wrong — reports are private and reviewed by a person.</p>
+</section>
+</main><footer>Questions? Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="en/help" lang="en" data-title="Me! — Help Centre"><header><div class="bar"><a class="logo" href="#en/index">Me!</a><a class="lang" href="#pl/help">Polski</a></div><nav><a href="#en/terms">Terms</a><a href="#en/privacy">Privacy</a><a href="#en/cookies">Cookies</a><a href="#en/guidelines">Guidelines</a><a href="#en/help" class="on">Help</a></nav></header>
+<main><h1>Help Centre</h1><p class="updated">Last updated: 31 October 2026</p>
+<section id="getting-started"><h2>Getting started</h2>
+<ul>
+<li>Me! opens city by city, starting with Warsaw. Outside open cities you can build your profile and join the waitlist; we notify you when Me! opens near you.</li>
+<li>Who writes first? Between a woman and a man, she does. Between two women, two men, or with a non-binary person, either of you can, once you both like each other.</li>
+</ul>
+</section>
+<section id="account"><h2>Account</h2>
+<ul>
+<li>Can't sign in? Use &quot;Trouble signing in?&quot; on the sign-in screen to reset your password or get a new confirmation link.</li>
+<li>Change email, password or connected sign-in: Settings → Account.</li>
+<li>Take a break: Settings → Visibility → Take a break. Delete your account: Settings → Account → Delete account.</li>
+<li>Download your data: Settings → Privacy → Download my data.</li>
+</ul>
+</section>
+<section id="safety"><h2>Safety</h2>
+<ul>
+<li>Report or block: tap ••• on a profile or in a chat. Chat already ended? Settings → Past matches.</li>
+<li>Before a date, share your plan with a friend from the date screen, and turn on a private check-in if you like.</li>
+<li>In an emergency, call 112 (EU) or your local emergency number.</li>
+</ul>
+</section>
+<section id="gold-and-boost"><h2>Gold and Boost</h2>
+<ul>
+<li>Me! Gold is one monthly subscription, billed by the App Store or Google Play. Cancel any time in your store account; you keep Gold until the end of the paid period.</li>
+<li>A Boost shows your profile earlier in Discover for one hour. Gold includes one free Boost every week.</li>
+<li>Restore purchases: Me! Gold screen → Restore purchases. Refunds are handled by Apple or Google.</li>
+</ul>
+</section>
+<section id="still-need-help"><h2>Still need help?</h2>
+<p>Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a> from the email linked to your account and tell us what happened. We usually reply within 2 working days.</p>
+</section>
+</main><footer>Questions? Write to <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="pl/index" lang="pl"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/index">English</a></div></header>
+<main class="hero"><h1>Me!</h1><p>Kobiety prowadzą. Ty wybierasz.</p><div class="links"><a href="#pl/terms">Regulamin</a><a href="#pl/privacy">Prywatność</a><a href="#pl/cookies">Cookies</a><a href="#pl/guidelines">Zasady</a><a href="#pl/help">Pomoc</a><a href="mailto:thombikoumou@gmail.com">Kontakt: thombikoumou@gmail.com</a></div></main></div>
+<div class="view" id="pl/terms" lang="pl" data-title="Me! — Regulamin"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/terms">English</a></div><nav><a href="#pl/terms" class="on">Regulamin</a><a href="#pl/privacy">Prywatność</a><a href="#pl/cookies">Cookies</a><a href="#pl/guidelines">Zasady</a><a href="#pl/help">Pomoc</a></nav></header>
+<main><h1>Regulamin</h1><p class="updated">Ostatnia aktualizacja: 31 października 2026</p>
+<section id="kim-jestes-my"><h2><span class="n">1</span>Kim jesteśmy</h2>
+<p>Me! to aplikacja randkowa prowadzona przez Thom Bikoumou, osobę fizyczną z siedzibą w Polsce („my”). Kontakt: <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="kto-moz-e-korzystac-z-me"><h2><span class="n">2</span>Kto może korzystać z Me!</h2>
+<p>Musisz mieć ukończone 18 lat. Możesz mieć tylko jedno konto, z prawdziwym imieniem, wiekiem i własnymi zdjęciami. Nie możesz korzystać z Me!, jeśli zostałeś(-aś) skazany(-a) za przestępstwo seksualne lub z użyciem przemocy albo jeśli wcześniej usunęliśmy twoje konto.</p>
+<p>Przy rejestracji sprawdzamy datę urodzenia. Jeśli zgłoszenie lub zdjęcia wskazują, że ktoś może mieć mniej niż 18 lat, nasz zespół sprawdza konto i może poprosić o weryfikację wieku. Konta osób poniżej 18 lat są usuwane.</p>
+</section>
+<section id="jak-dzia-a-me"><h2><span class="n">3</span>Jak działa Me!</h2>
+<ul>
+<li>Między kobietą a mężczyzną: ona lubi pierwsza albo akceptuje jego polubienie i zawsze wysyła pierwszą wiadomość.</li>
+<li>Między dwiema kobietami lub dwoma mężczyznami: match jest wtedy, gdy oboje się polubicie, a każde z was może napisać pierwsze.</li>
+<li>Z osobą niebinarną: match jest wtedy, gdy oboje się polubicie, a widzicie się tylko wtedy, gdy oboje chcecie się poznać.</li>
+<li>To, kim się interesujesz, jest prywatne i nigdy nie pojawia się w profilu.</li>
+<li>Me! otwiera się miasto po mieście. Poza otwartymi miastami możesz założyć profil i dołączyć do listy oczekujących, ale nikt cię jeszcze nie widzi.</li>
+</ul>
+</section>
+<section id="twoje-konto"><h2><span class="n">4</span>Twoje konto</h2>
+<p>Chroń swoje dane logowania; odpowiadasz za to, co dzieje się na twoim koncie. W każdej chwili możesz w Ustawieniach wstrzymać konto, pobrać swoje dane lub je usunąć.</p>
+</section>
+<section id="twoje-tres-ci"><h2><span class="n">5</span>Twoje treści</h2>
+<p>Twoje zdjęcia, teksty i nagrania pozostają twoje. Udzielasz nam niewyłącznej, ogólnoświatowej, nieodpłatnej licencji na ich przechowywanie, wyświetlanie i dostosowywanie (np. zmianę rozmiaru zdjęć) wyłącznie w celu świadczenia usługi Me!. Licencja wygasa, gdy usuniesz treść lub konto, chyba że musimy ją zachować ze względów bezpieczeństwa lub prawnych (zob. Polityka prywatności).</p>
+<p>Publikuj tylko treści, do których masz prawo. Zdjęcia i inne treści są sprawdzane automatycznie i mogą być weryfikowane przez nasz zespół; treści naruszające Regulamin nie są publikowane lub są usuwane.</p>
+</section>
+<section id="zasady-zachowania"><h2><span class="n">6</span>Zasady zachowania</h2>
+<p>Bądź życzliwy(-a) i szczery(-a). W szczególności nie wolno: nękać, grozić ani obrażać; publikować nagości, treści seksualnych ani przemocy; szerzyć mowy nienawiści; podszywać się pod innych ani używać cudzych zdjęć; prosić o pieniądze, prezenty, inwestycje lub usługi seksualne ani ich oferować; reklamować ani spamować; kontaktować się z osobami poniżej 18 lat; ujawniać cudzych danych prywatnych; obchodzić blokad, limitów i zabezpieczeń. Szczegóły opisują Zasady społeczności.</p>
+</section>
+<section id="bezpieczen-stwo"><h2><span class="n">7</span>Bezpieczeństwo</h2>
+<p>Dajemy ci narzędzia do zgłaszania, blokowania, bezpiecznego planowania randek i potwierdzania, że wszystko w porządku, ale nie sprawdzamy niekaralności, a odznaka weryfikacji oznacza tylko, że selfie pasowało do zdjęć w chwili sprawdzenia. Spotykaj się w miejscach publicznych i kieruj się własnym osądem. W nagłym wypadku dzwoń pod 112.</p>
+</section>
+<section id="zg-oszenia-wstrzymania-i-zawieszenia"><h2><span class="n">8</span>Zgłoszenia, wstrzymania i zawieszenia</h2>
+<p>Sprawdzamy zgłoszenia. W czasie sprawdzania poważnego zgłoszenia możemy wstrzymać konto. Jeśli konto narusza Regulamin, możemy usunąć treści, ograniczyć funkcje lub zawiesić konto. Informujemy o przyczynie, o ile nie naraża to nikogo na niebezpieczeństwo, a ty możesz raz złożyć odwołanie w aplikacji; każde odwołanie rozpatruje człowiek.</p>
+</section>
+<section id="funkcje-p-atne"><h2><span class="n">9</span>Funkcje płatne</h2>
+<p>Polubienia, odpowiadanie na polubienia, czat i wszystkie narzędzia bezpieczeństwa są darmowe. Opcjonalne funkcje płatne:</p>
+<ul>
+<li>Me! Gold: jedna miesięczna subskrypcja. Odnawia się automatycznie co miesiąc po cenie widocznej w sklepie, dopóki nie anulujesz jej w koncie App Store lub Google Play co najmniej 24 godziny przed odnowieniem. Gold zostaje do końca opłaconego okresu.</li>
+<li>Boost: jednorazowy zakup, który przez godzinę pokazuje twój profil wcześniej w Odkrywaj. Kupione Boosty nie wygasają.</li>
+</ul>
+<p>Zakupy realizują i rozliczają Apple lub Google w twojej lokalnej walucie, z podatkami; obowiązują także ich regulaminy i zasady zwrotów. Gold i Boost nigdy nie gwarantują polubień ani par.</p>
+<p>Prawo odstąpienia (konsumenci w UE): co do zasady masz 14 dni na odstąpienie od umowy zawartej na odległość. Kupując Gold lub Boosta, żądasz rozpoczęcia świadczenia od razu i przyjmujesz do wiadomości, że tracisz to prawo po pełnym wykonaniu usługi (w przypadku Boosta — po jego użyciu). Aby poprosić o zwrot, skorzystaj z procedury sklepu lub napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="zmiany-i-doste-pnos-c"><h2><span class="n">10</span>Zmiany i dostępność</h2>
+<p>Stale ulepszamy Me! i możemy zmieniać lub wycofywać funkcje. Jeśli istotnie zmienimy Regulamin, poinformujemy cię w aplikacji i poprosimy o ponowną akceptację.</p>
+</section>
+<section id="zakon-czenie-korzystania-z-me"><h2><span class="n">11</span>Zakończenie korzystania z Me!</h2>
+<p>Możesz w każdej chwili usunąć konto w Ustawieniach. Usunięcie konta nie anuluje subskrypcji w sklepie — anuluj ją w koncie sklepu. Możemy rozwiązać umowę lub zawiesić konto, jeśli poważnie lub wielokrotnie naruszasz Regulamin.</p>
+</section>
+<section id="odpowiedzialnos-c"><h2><span class="n">12</span>Odpowiedzialność</h2>
+<p>Świadczymy Me! z należytą starannością, ale nie możemy obiecać, że aplikacja będzie zawsze dostępna i wolna od błędów ani że kogoś poznasz. Nie odpowiadamy za zachowanie innych użytkowników w Me! ani poza nią. Nic w Regulaminie nie ogranicza odpowiedzialności, której nie można ograniczyć zgodnie z prawem, w tym za szkodę wyrządzoną umyślnie, za szkody na osobie ani twoich praw konsumenta.</p>
+</section>
+<section id="prawo-i-spory"><h2><span class="n">13</span>Prawo i spory</h2>
+<p>Regulamin podlega prawu polskiemu. Jeśli jesteś konsumentem, zachowujesz ochronę bezwzględnie obowiązujących przepisów kraju zamieszkania i możesz dochodzić roszczeń przed tamtejszymi sądami. Najpierw skontaktuj się z nami pod <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>, abyśmy mogli spróbować rozwiązać problem.</p>
+</section>
+</main><footer>Pytania? Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="pl/privacy" lang="pl" data-title="Me! — Polityka prywatności"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/privacy">English</a></div><nav><a href="#pl/terms">Regulamin</a><a href="#pl/privacy" class="on">Prywatność</a><a href="#pl/cookies">Cookies</a><a href="#pl/guidelines">Zasady</a><a href="#pl/help">Pomoc</a></nav></header>
+<main><h1>Polityka prywatności</h1><p class="updated">Ostatnia aktualizacja: 31 października 2026</p>
+<section id="kto-odpowiada-za-twoje-dane"><h2><span class="n">1</span>Kto odpowiada za twoje dane</h2>
+<p>Administratorem twoich danych osobowych jest Thom Bikoumou, osoba fizyczna z siedzibą w Polsce. Kontakt we wszystkich sprawach dotyczących prywatności: <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.</p>
+</section>
+<section id="jakie-dane-zbieramy"><h2><span class="n">2</span>Jakie dane zbieramy</h2>
+<ul>
+<li>Konto: adres e-mail i/lub numer telefonu, metoda logowania (e-mail, telefon, Google), hasło (przechowywane wyłącznie jako bezpieczny skrót).</li>
+<li>Profil: imię (i nazwisko, jeśli je podasz — nigdy niewidoczne), data urodzenia (widać tylko wiek), płeć, zdjęcia, opis, odpowiedzi na pytania, głosowe i wideo intro, zainteresowania, praca, wykształcenie, wzrost, języki, styl życia, intencje, pomysły na randkę.</li>
+<li>Preferencje: kogo chcesz poznać (orientacja, otwartość na osoby niebinarne), przedział wieku, odległość i inne filtry, ustawienia powiadomień, godziny ciszy, język i strefa czasowa.</li>
+<li>Lokalizacja: tylko za twoją zgodą — pozycja zaokrąglona do ok. 1 km i nazwa miasta. W przeciwnym razie wybrane przez ciebie miasto. W Passport — miasto, które wybierzesz.</li>
+<li>Aktywność: polubienia, pominięcia, pary, wiadomości, wysyłane zdjęcia i wiadomości głosowe, plany randek, potwierdzenia bezpieczeństwa i odpowiedzi na opcjonalne pytania (np. czy randka się odbyła).</li>
+<li>Bezpieczeństwo: zgłoszenia wysłane i otrzymane, blokady, decyzje moderacyjne, odwołania oraz selfie weryfikacyjne.</li>
+<li>Zakupy: informacja, czy masz Gold lub Boosty, status zakupów i subskrypcji otrzymywany od Apple, Google i RevenueCat (nigdy nie otrzymujemy danych twojej karty).</li>
+<li>Dane techniczne: token powiadomień telefonu, wersja aplikacji i logi potrzebne do zapewnienia bezpieczeństwa.</li>
+</ul>
+</section>
+<section id="dane-szczego-lne"><h2><span class="n">3</span>Dane szczególne</h2>
+<p>Informacja o tym, kogo chcesz poznać, może ujawniać twoją orientację seksualną lub życie seksualne, czyli dane szczególnej kategorii w rozumieniu RODO. Przetwarzamy ją wyłącznie na podstawie twojej wyraźnej zgody, wyrażanej przy wyborze w aplikacji, i tylko po to, by pokazywać ci właściwe osoby. Nigdy nie pojawia się w profilu. Możesz ją zmienić lub wycofać zgodę w każdej chwili, edytując profil lub usuwając konto.</p>
+<p>Twoje selfie weryfikacyjne porównuje ze zdjęciami profilowymi nasz zespół, aby przyznać odznakę weryfikacji. Nie używamy go do identyfikowania cię w żaden inny sposób i nigdy nie jest pokazywane innym użytkownikom.</p>
+</section>
+<section id="cele-i-podstawy-prawne"><h2><span class="n">4</span>Cele i podstawy prawne</h2>
+<ul>
+<li>Świadczenie usługi Me! (konto, profil, odkrywanie, dopasowania, czat, planowanie randek, zakupy) — wykonanie umowy (art. 6 ust. 1 lit. b RODO), a w przypadku orientacji — twoja wyraźna zgoda (art. 9 ust. 2 lit. a).</li>
+<li>Bezpieczeństwo użytkowników (moderacja zdjęć, wykrywanie oszustw i fałszywych kont, obsługa zgłoszeń i odwołań, egzekwowanie Regulaminu) — nasz i użytkowników prawnie uzasadniony interes (art. 6 ust. 1 lit. f).</li>
+<li>Poznawanie twoich upodobań na podstawie twoich polubień i pominięć oraz porządkowanie Odkrywaj — wykonanie umowy; nigdy nie używamy do tego religii, zdjęć ani orientacji, a w Ustawieniach możesz to zresetować.</li>
+<li>Wysyłanie powiadomień — twoja zgoda w telefonie; w Ustawieniach wybierasz, które chcesz dostawać.</li>
+<li>Wypełnianie obowiązków prawnych (np. dokumentacja podatkowa zakupów, odpowiedzi na zgodne z prawem żądania) — obowiązek prawny (art. 6 ust. 1 lit. c).</li>
+<li>Ulepszanie Me! na podstawie zagregowanych statystyk — prawnie uzasadniony interes.</li>
+</ul>
+<p>Nie sprzedajemy twoich danych i nie wyświetlamy reklam.</p>
+</section>
+<section id="przetwarzanie-zautomatyzowane"><h2><span class="n">5</span>Przetwarzanie zautomatyzowane</h2>
+<p>Zdjęcia są automatycznie sprawdzane przed publikacją, a niektóre wiadomości uruchamiają automatyczne ostrzeżenia lub oznaczenia do sprawdzenia. Kolejność w Odkrywaj ustalana jest automatycznie. Decyzje o zawieszeniu konta zawsze podejmuje lub zatwierdza człowiek.</p>
+</section>
+<section id="komu-przekazujemy-dane"><h2><span class="n">6</span>Komu przekazujemy dane</h2>
+<ul>
+<li>Inni użytkownicy widzą twój publiczny profil (nigdy dokładnej lokalizacji, nazwiska, daty urodzenia, e-maila, telefonu ani orientacji) oraz wiadomości, które im wysyłasz.</li>
+<li>Dostawcy usług działający na nasze polecenie: Supabase (baza danych, przechowywanie plików, serwery), Expo (dostarczanie powiadomień push), Google Firebase Cloud Messaging i Apple Push Notification service (dostarczanie powiadomień), OpenAI (automatyczne sprawdzanie zdjęć pod kątem nagości i przemocy; zdjęcia nie są używane do trenowania ich modeli), RevenueCat, Apple i Google (zakupy i subskrypcje), Google (jeśli logujesz się przez Google) oraz dostawca SMS, jeśli logujesz się numerem telefonu.</li>
+<li>Osoba, której udostępnisz link do planu randki.</li>
+<li>Organy publiczne, gdy wymaga tego prawo lub w celu ochrony czyjegoś życia lub bezpieczeństwa.</li>
+</ul>
+<p>Niektórzy dostawcy znajdują się poza Europejskim Obszarem Gospodarczym (np. w USA). Wtedy opieramy się na decyzji stwierdzającej odpowiedni stopień ochrony (np. EU–US Data Privacy Framework) lub na standardowych klauzulach umownych Komisji Europejskiej.</p>
+</section>
+<section id="jak-d-ugo-przechowujemy-dane"><h2><span class="n">7</span>Jak długo przechowujemy dane</h2>
+<ul>
+<li>Przez czas istnienia konta. Po usunięciu konta profil, zdjęcia, pary, wiadomości i plany randek są usuwane w ciągu 30 dni (a z kopii zapasowych w ciągu kolejnych 30 dni).</li>
+<li>Niepotwierdzone rejestracje są usuwane po 24 godzinach.</li>
+<li>Zgłoszenia, decyzje moderacyjne i odwołania możemy przechowywać do 12 miesięcy po usunięciu konta, aby chronić użytkowników i rozstrzygać spory; dokumenty podatkowe — tak długo, jak wymaga prawo.</li>
+</ul>
+</section>
+<section id="twoje-prawa"><h2><span class="n">8</span>Twoje prawa</h2>
+<p>Masz prawo dostępu do danych (Ustawienia → Pobierz moje dane), ich sprostowania, usunięcia (Ustawienia → Usuń konto), przenoszenia, ograniczenia przetwarzania, sprzeciwu wobec przetwarzania opartego na prawnie uzasadnionym interesie oraz wycofania zgody w dowolnym momencie bez wpływu na wcześniejsze przetwarzanie. Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>; odpowiadamy w ciągu miesiąca.</p>
+<p>Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (UODO), ul. Stawki 2, 00-193 Warszawa, <a href="https://uodo.gov.pl" rel="noopener">uodo.gov.pl</a> — lub do organu nadzorczego w kraju UE, w którym mieszkasz.</p>
+</section>
+<section id="bezpieczen-stwo"><h2><span class="n">9</span>Bezpieczeństwo</h2>
+<p>Dane są szyfrowane podczas przesyłania, dostęp ograniczają ścisłe reguły w bazie danych, zdjęcia są przechowywane prywatnie, ukryte dane (np. GPS) są usuwane ze zdjęć, a odległości zaokrąglane. Żaden system nie jest w pełni bezpieczny; jeśli dojdzie do naruszenia, które cię dotyczy, poinformujemy cię zgodnie z prawem.</p>
+</section>
+<section id="wiek"><h2><span class="n">10</span>Wiek</h2>
+<p>Me! jest tylko dla osób, które ukończyły 18 lat. Jeśli dowiemy się, że konto ma osoba poniżej 18 lat, usuwamy je.</p>
+</section>
+<section id="zmiany"><h2><span class="n">11</span>Zmiany</h2>
+<p>Jeśli istotnie zmienimy tę politykę, poinformujemy cię w aplikacji.</p>
+</section>
+</main><footer>Pytania? Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="pl/cookies" lang="pl" data-title="Me! — Polityka plików cookie"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/cookies">English</a></div><nav><a href="#pl/terms">Regulamin</a><a href="#pl/privacy">Prywatność</a><a href="#pl/cookies" class="on">Cookies</a><a href="#pl/guidelines">Zasady</a><a href="#pl/help">Pomoc</a></nav></header>
+<main><h1>Polityka plików cookie</h1><p class="updated">Ostatnia aktualizacja: 31 października 2026</p>
+<section>
+<p>Me! to aplikacja mobilna i nie używa reklamowych plików cookie ani zewnętrznych narzędzi śledzących.</p>
+</section>
+<section id="co-aplikacja-zapisuje-w-telefonie"><h2>Co aplikacja zapisuje w telefonie</h2>
+<ul>
+<li>Sesję logowania, abyś pozostawał(-a) zalogowany(-a) (w bezpiecznym magazynie telefonu).</li>
+<li>Ustawienia aplikacji, np. język, wygląd i jednostki.</li>
+<li>Niewysłane szkice wiadomości i niewielkie dane tymczasowe przyspieszające działanie.</li>
+</ul>
+<p>Są one niezbędne do działania aplikacji i znikają po wylogowaniu lub odinstalowaniu Me!.</p>
+</section>
+<section id="te-strony-internetowe"><h2>Te strony internetowe</h2>
+<p>Strony z Regulaminem, Polityką prywatności i Centrum pomocy nie zapisują żadnych plików cookie.</p>
+</section>
+<section id="analityka-i-reklamy"><h2>Analityka i reklamy</h2>
+<p>Nie używamy reklam, śledzenia między aplikacjami ani zewnętrznych narzędzi analitycznych. Jeśli to się zmieni, zaktualizujemy tę politykę i poprosimy o zgodę tam, gdzie wymaga tego prawo.</p>
+</section>
+</main><footer>Pytania? Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="pl/guidelines" lang="pl" data-title="Me! — Zasady społeczności"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/guidelines">English</a></div><nav><a href="#pl/terms">Regulamin</a><a href="#pl/privacy">Prywatność</a><a href="#pl/cookies">Cookies</a><a href="#pl/guidelines" class="on">Zasady</a><a href="#pl/help">Pomoc</a></nav></header>
+<main><h1>Zasady społeczności</h1><p class="updated">Ostatnia aktualizacja: 31 października 2026</p>
+<section>
+<p>Me! jest dla osób, które chcą poznawać się świadomie i z szacunkiem. Łamanie tych zasad może skutkować usunięciem treści, wstrzymaniem lub zawieszeniem konta.</p>
+</section>
+<section id="ba-dz-soba"><h2>Bądź sobą</h2>
+<p>Używaj własnego imienia, wieku i aktualnych zdjęć. Jedno konto na osobę. Żadnych fałszywych profili ani podszywania się.</p>
+</section>
+<section id="szanuj-innych"><h2>Szanuj innych</h2>
+<p>Żadnego nękania, gróźb, obrażania, nienawiści ani nacisków. „Nie” — albo brak odpowiedzi — to odpowiedź. Nie udostępniaj cudzych wiadomości, zdjęć ani danych bez zgody.</p>
+</section>
+<section id="bez-nieodpowiednich-tres-ci"><h2>Bez nieodpowiednich treści</h2>
+<p>Żadnej nagości ani treści seksualnych, przemocy, nielegalnych narkotyków czy broni, żadnych treści z udziałem nieletnich.</p>
+</section>
+<section id="bez-pienie-dzy-i-biznesu"><h2>Bez pieniędzy i biznesu</h2>
+<p>Nigdy nie proś o pieniądze, karty podarunkowe, kryptowaluty ani inwestycje. Żadnej sprzedaży, reklam, pracy seksualnej ani werbowania.</p>
+</section>
+<section id="tylko-dla-doros-ych"><h2>Tylko dla dorosłych</h2>
+<p>Każdy w Me! musi mieć ukończone 18 lat.</p>
+</section>
+<section id="dbaj-o-bezpieczen-stwo"><h2>Dbaj o bezpieczeństwo</h2>
+<p>Spotykaj się w miejscach publicznych, powiedz znajomej osobie, zadbaj o własny transport i wyjdź, kiedy chcesz. Zgłaszaj wszystko, co wydaje się niewłaściwe — zgłoszenia są prywatne i sprawdza je człowiek.</p>
+</section>
+</main><footer>Pytania? Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<div class="view" id="pl/help" lang="pl" data-title="Me! — Centrum pomocy"><header><div class="bar"><a class="logo" href="#pl/index">Me!</a><a class="lang" href="#en/help">English</a></div><nav><a href="#pl/terms">Regulamin</a><a href="#pl/privacy">Prywatność</a><a href="#pl/cookies">Cookies</a><a href="#pl/guidelines">Zasady</a><a href="#pl/help" class="on">Pomoc</a></nav></header>
+<main><h1>Centrum pomocy</h1><p class="updated">Ostatnia aktualizacja: 31 października 2026</p>
+<section id="pierwsze-kroki"><h2>Pierwsze kroki</h2>
+<ul>
+<li>Me! otwiera się miasto po mieście, zaczynając od Warszawy. Poza otwartymi miastami możesz przygotować profil i dołączyć do listy oczekujących; powiadomimy cię, gdy Me! ruszy w twojej okolicy.</li>
+<li>Kto pisze pierwszy? Między kobietą a mężczyzną — ona. Między dwiema kobietami, dwoma mężczyznami lub z osobą niebinarną — każde z was, gdy oboje się polubicie.</li>
+</ul>
+</section>
+<section id="konto"><h2>Konto</h2>
+<ul>
+<li>Nie możesz się zalogować? Na ekranie logowania wybierz „Problem z logowaniem?”, aby zresetować hasło lub otrzymać nowy link potwierdzający.</li>
+<li>Zmiana e-maila, hasła lub metody logowania: Ustawienia → Konto.</li>
+<li>Przerwa: Ustawienia → Widoczność → Zrób przerwę. Usunięcie konta: Ustawienia → Konto → Usuń konto.</li>
+<li>Pobranie danych: Ustawienia → Prywatność → Pobierz moje dane.</li>
+</ul>
+</section>
+<section id="bezpieczen-stwo"><h2>Bezpieczeństwo</h2>
+<ul>
+<li>Zgłoś lub zablokuj: dotknij ••• w profilu lub czacie. Czat już się zakończył? Ustawienia → Poprzednie pary.</li>
+<li>Przed randką udostępnij plan znajomej osobie z ekranu randki i, jeśli chcesz, włącz prywatne potwierdzenie bezpieczeństwa.</li>
+<li>W nagłym wypadku dzwoń pod 112.</li>
+</ul>
+</section>
+<section id="gold-i-boost"><h2>Gold i Boost</h2>
+<ul>
+<li>Me! Gold to jedna miesięczna subskrypcja rozliczana przez App Store lub Google Play. Anuluj ją w dowolnej chwili w koncie sklepu; Gold zostaje do końca opłaconego okresu.</li>
+<li>Boost pokazuje twój profil wcześniej w Odkrywaj przez godzinę. Gold zawiera jednego darmowego Boosta co tydzień.</li>
+<li>Przywracanie zakupów: ekran Me! Gold → Przywróć zakupy. Zwroty obsługują Apple lub Google.</li>
+</ul>
+</section>
+<section id="nadal-potrzebujesz-pomocy"><h2>Nadal potrzebujesz pomocy?</h2>
+<p>Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a> z adresu powiązanego z kontem i opisz, co się stało. Zwykle odpowiadamy w ciągu 2 dni roboczych.</p>
+</section>
+</main><footer>Pytania? Napisz na <a href="mailto:thombikoumou@gmail.com">thombikoumou@gmail.com</a>.<br>© 2026 Me!</footer></div>
+<script>
+function show(){var q=new URLSearchParams(location.search),h=location.hash.slice(1);
+if(!h&&q.get('p'))h=(q.get('l')==='en'?'en':'pl')+'/'+q.get('p');
+var v=document.getElementById(h)||document.getElementById('pl/index');
+document.querySelectorAll('.view.on').forEach(function(e){e.classList.remove('on')});v.classList.add('on');
+document.documentElement.lang=v.lang;document.title=v.dataset.title||'Me!';window.scrollTo(0,0)}
+addEventListener('hashchange',show);show();
+</script></body></html>
